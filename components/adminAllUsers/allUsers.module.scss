@@ -1,0 +1,33 @@
+.allUsers {
+    table{
+        background-color: #fff;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        padding: 0 10px;
+        thead{
+            tr{
+                th{
+                    background-color: transparent;
+                    padding: 37px 20px;
+                    text-align: center;
+                    min-width: 100px;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+            border-bottom: 1px solid #1515152e;
+        }
+        tbody{
+            text-align: center;
+            tr{
+                border: none;
+                td{
+                    padding: 10px 20px;
+                    color: #000;
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+
+            }
+        }
+    }
+}

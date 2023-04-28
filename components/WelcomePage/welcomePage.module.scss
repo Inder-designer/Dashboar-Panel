@@ -1,0 +1,17 @@
+.navbar_nav{    
+    .nav_item{
+        a{
+            transition: all .2s;
+            &:hover{
+                background: rgba(255, 255, 255, 0.25);
+                border-radius: 6px;
+            }
+        }
+    }
+    .nav_item.active{
+        a{  
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 6px;
+        }
+    }
+} 
